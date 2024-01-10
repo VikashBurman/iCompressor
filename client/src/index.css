@@ -1,0 +1,125 @@
+
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header-h1{
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #555555;
+  margin-top: 20px;
+}
+
+.input-heading h3{
+  color: #555555;
+}
+.output-heading h3{
+  color: #555555;
+}
+
+.main-input-output{
+  display: flex;
+  justify-content: center;
+}
+
+.input-div{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: min-content;
+  height: min-content;
+}
+.output-div{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: min-content;
+  height: min-content;
+}
+
+.center-button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.decompress-btn{
+  margin-top: 18px;
+  margin-left: 10px;
+  margin-right: 14px;
+
+}
+.compress-btn{
+  margin-left: 16px;
+  margin-right: 10px;
+}
+
+.main-heading{
+  margin-bottom: 55px;
+}
+
+.main-text p {
+  text-align: center;
+  width: 50%;
+}
+.main-text {
+  display: flex;
+  justify-content: center;
+}
+
+
+#text-input {
+    width: 410px;
+    height: 380px;
+    padding: 10px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Add responsive styles using media queries */
+@media (min-width: 375px) and (max-width: 990px){
+  /* Adjust styles for smaller screens */
+  .main-heading {
+    margin-top: 20px;
+  }
+
+  .main-input-output{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+  .center-button {
+    margin-top:20px;
+    margin-bottom: 20px;
+  }
+}
+
+
+@media(max-width: 450px){
+  /* Adjust styles for smaller screens */
+  /* .main-heading {
+    margin-top: 20px;
+  } */
+
+  .main-input-output{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+  .center-button {
+    margin-top:20px;
+    margin-bottom: 20px;
+  }
+  #text-input {
+    width: 350px;
+  }
+}
+
